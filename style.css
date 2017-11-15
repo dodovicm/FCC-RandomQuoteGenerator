@@ -1,0 +1,103 @@
+/*
+    RESET AND BACKGROUND
+*/
+
+body {
+    background-image: url('./assets/texture-1668148_1920.jpg');
+    background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu';
+}
+
+/*
+    HEADER STYLING
+*/
+header {
+    color: rgb(22, 211, 22);
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    text-shadow: 3px 3px darkblue;
+}
+
+/*
+    MAIN SECTION STYLING
+*/
+
+.quote-placeholder-wrapper {    
+    width: 500px;
+    height: auto;
+    border: 3px solid rgb(22, 211, 22);
+    background-color: rgb(2, 42, 68);
+    margin: 0px auto;
+    border-radius: 20%;
+    box-shadow: 0px 0px 30px black;    
+}
+
+.new-quote {
+    /* margin-left: 40%;
+    margin-top: 200px;
+    display: flex;
+    align-content: center;
+    align-items: center; */
+    position: relative;
+    top: 50px;   
+    left: 200px; 
+    top: 100px;
+    background-color: rgb(2, 42, 68);
+    border: 3px solid rgb(22, 211, 22);
+    color: yellowgreen;
+    height: 50px;
+    width: 115px;
+    border-radius: 10%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.new-quote:hover {
+    /* color: white; */
+    border-color: grey;
+    cursor: pointer;
+    
+}
+
+.twitter {    
+    max-width: 20%;
+    margin-left: 2%;
+    margin-top: 5%;
+    height: auto;    
+}
+
+.tweet-it {
+    color:lightseagreen;
+    margin-left: 5%;   
+    margin-top: 1%; 
+    display: flex;
+    align-items: center; 
+    text-shadow: 12px 8px black;
+    font-size: 17px;        
+}
+
+
+.quote {
+    color: green;
+    font-size: 22px;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* padding-top: 0.5em; */
+    line-height: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px black;
+}
+
+.quote-character {
+    font-weight: bold;
+    text-shadow: 4px 6px black;
+    font-size: 28px;
+}
+
+.quote-text {
+    color: green;
+}
