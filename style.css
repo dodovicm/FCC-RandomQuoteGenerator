@@ -3,8 +3,8 @@
 */
 
 body {
-    background-image: url('./assets/texture-1668148_1920.jpg');
-    background-repeat: repeat;
+    /* background-image: url('./assets/texture-1668148_1920.jpg'); */
+    background-color: rgba(240, 236, 236, 0.904);
     margin: 0px;
     padding: 0px;
     font-family: 'Ubuntu';
@@ -14,7 +14,7 @@ body {
     HEADER STYLING
 */
 header {
-    color: rgb(22, 211, 22);
+    color: rgb(22, 211, 22);    
     text-align: center;
     margin-top: 2em;
     margin-bottom: 4em;
@@ -36,15 +36,11 @@ header {
 }
 
 .new-quote {
-    /* margin-left: 40%;
-    margin-top: 200px;
-    display: flex;
-    align-content: center;
-    align-items: center; */
     position: relative;
     top: 50px;   
     left: 200px; 
     top: 100px;
+    margin-bottom: 2em;
     background-color: rgb(2, 42, 68);
     border: 3px solid rgb(22, 211, 22);
     color: yellowgreen;
@@ -56,7 +52,6 @@ header {
 }
 
 .new-quote:hover {
-    /* color: white; */
     border-color: grey;
     cursor: pointer;
     
@@ -64,14 +59,18 @@ header {
 
 .twitter {    
     max-width: 20%;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-top: 5%;
     height: auto;    
 }
 
+.twitter:hover {
+    cursor: pointer;
+}
+
 .tweet-it {
     color:lightseagreen;
-    margin-left: 5%;   
+    margin-left: 7%;   
     margin-top: 1%; 
     display: flex;
     align-items: center; 
@@ -85,7 +84,6 @@ header {
     font-size: 22px;
     padding-left: 2em;
     padding-right: 2em;
-    /* padding-top: 0.5em; */
     line-height: 1.7em;
     font-weight: bold;
     text-align: center;
