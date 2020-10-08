@@ -1,0 +1,62 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Hello World API overview",
+    "version": "v2"
+  },
+  "servers": [
+    {
+      "url": "/{basePath}",
+      "description": "The production API server",
+      "variables": {
+        "basePath": {
+          "default": "v2"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/hello-world": {
+      "post": {
+        "operationId": "hello-world-post",
+        "summary": "Post to Hello World!",
+        "responses": {
+          "200": {
+            "description": "200 response"
+          }
+        }
+      },
+      "get": {
+        "operationId": "hello-world-get",
+        "summary": "Get to Hello World!",
+        "responses": {
+          "200": {
+            "description": "200 response"
+          }
+        }
+      }
+    },
+    "/hello-world/{id}": {
+      "get": {
+        "operationId": "hello-world-get-with-id",
+        "summary": "Get a hello by ID",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "integer"
+            },
+            "required": true,
+            "description": "Numeric ID to say hello"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "200 response"
+          }
+        }
+      }
+    }
+  }
+}
